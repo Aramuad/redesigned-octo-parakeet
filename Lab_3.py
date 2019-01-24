@@ -97,17 +97,27 @@ end
 #Coins
 
 print("")
-qts = float(input("Enter number of quarters: "))
-dms = float(input("Enter number of dimes: "))
-nkls = float(input("Enter numner of nickels: "))
-pnis = float(input("Enter number of pennies: "))
-total = ((qts * .25) + (dms * .10) + (nkls * .05) + (pnis * .01))
-print("")
+Qts = float(input("Enter number of quarters: "))
+Dms = float(input("Enter number of dimes: "))
+Nkls = float(input("Enter numner of nickels: "))
+Pnis = float(input("Enter number of pennies: "))
+coins = {"qts": .25, "dms": .10, "nkls": .05, "pnis": .01}
+Total = ((Qts * .25) + (Dms * .10) + (Nkls * .05) + (Pnis * .01))
 
-print("You entered " + str(qts) + " quarters")
-print("You entered " + str(dms) + " dimes")
-print("You entered " + str(nkls) + " nickels")
-print("You entered " + str(pnis) + " pennies")
+for coin in coins:    
+    print("You entered " + str(coin) + name
+
+    switch(name)
+        switcher = {
+            1: coin.value = .25
+                print("quarters.")
+            2: coin.value = .10
+                print("dimes.")
+            3: coin.value = .05
+                print("nickels.")
+            4: coin.value = .01
+                print("pennies.")
+
 print("")
-print("Your total is " + str(total) + " Dollars")
+print("Your total is " + str(Total) + " Dollars")
 

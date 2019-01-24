@@ -1,7 +1,7 @@
 
-user = input("Enter name")
+#user = input("Enter name")
 
-def say_hi(user):
-    print("Hello " + user)
+#def say_hi(user):
+ #   print("Hello " + user)
 
-say_hi(user)
+#say_hi(user)
