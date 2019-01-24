@@ -1,0 +1,15 @@
+
+print("")
+Qts = float(input("Enter number of quarters: "))
+Dms = float(input("Enter number of dimes: "))
+Nkls = float(input("Enter numner of nickels: "))
+Pnis = float(input("Enter number of pennies: "))
+Total = ((Qts * .25) + (Dms * .10) + (Nkls * .05) + (Pnis * .01))
+print("")
+
+print("You entered " + str(Qts) + " quarters")
+print("You entered " + str(Dms) + " dimes")
+print("You entered " + str(Nkls) + " nickels")
+print("You entered " + str(Pnis) + " pennies")
+print("")
+print("Your total is " + str(Total) + " Dollars")
