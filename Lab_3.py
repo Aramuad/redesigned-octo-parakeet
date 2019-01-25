@@ -1,10 +1,15 @@
 
-# Class: CSE_1321L, Class_1
-# Lab_3
-# Samuel Ballard
-# 000812290
+# Class:	CSE 1321L
+# Section: 1         
+# Term: Spring/2019  
+# Instructor: Amier Cher 
+# Name: Samuel Ballard
+# Lab#: 3
 
-#SumValue Psuedocode
+
+# SumValue
+ 
+# Psuedocode
 
 # TAKE THREE NUMBERS AS INPUT FROM A USER
 # PRINT EACH INPUT ON ITS OWN LINE
@@ -23,8 +28,6 @@
 
 # PROGRAM RUNS, STILL NEED TO WRITE TESTS
 
-#SUmValue
-
 print("")
 x = input("Let's average three numbers, select an integer and press enter: ")
 print("")
@@ -38,9 +41,11 @@ print("Y = " + str(y))
 print("Z = " + str(z))
 print("Average = " + str((x+y+z)/3))
 
-end
+# END
 
-#SimpleMath Psuedocode
+# SimpleMath 
+
+# Psuedocode
 
 # TAKE TWO INTEGERS FROM USER
 # ADD, SUBTRACT, AND MULTIPLY THE TWO INTEGERS
@@ -59,8 +64,6 @@ end
 
 # BREAKS BECAUSE FLOAT FUNCTION SHOULD WRAP INPUT FUNCTION
 
-#SimpleMath
-
 print("")
 r = float(input("Enter first number: "))
 t = float(input("Enter second number: "))
@@ -74,9 +77,11 @@ print("R + T = " + str(add)
 print("R - T = " + str(sub)
 print("R * T = " + str(pro)
 
-end
+# END
 
-#Coins Psuedocode
+# Coins 
+
+# Psuedocode
 
 # PROMPT THE USER TO ENTER HOW MUCH OF EACH US COIN THE JAR HOLDS
 # STORE USER INPUT
@@ -94,30 +99,20 @@ end
 # STRINGIFY RESULTS OF OPERATIONS TO ALLOW PRINTING
 # NEVER FIGURED OUT HOW TO DISPLAY WHOLE DOLLARS AND CENTS SEPERATELY 
 
-#Coins
+print("")
+qts = float(input("Enter number of quarters: "))
+dms = float(input("Enter number of dimes: "))
+nkls = float(input("Enter numner of nickels: "))
+pnis = float(input("Enter number of pennies: "))
+total = ((qts * .25) + (dms * .10) + (nkls * .05) + (pnis * .01))
+
+print("You entered " + str(qts) + " quarters.")
+print("You entered " + str(dms) + " dimes.")
+print("You entered " + str(nkls) + " nickels.")
+print("You entered " + str(pnis) + " pennies.")
 
 print("")
-Qts = float(input("Enter number of quarters: "))
-Dms = float(input("Enter number of dimes: "))
-Nkls = float(input("Enter numner of nickels: "))
-Pnis = float(input("Enter number of pennies: "))
-coins = {"qts": .25, "dms": .10, "nkls": .05, "pnis": .01}
-Total = ((Qts * .25) + (Dms * .10) + (Nkls * .05) + (Pnis * .01))
+print("Your total is " + str(total) + " Dollars")
 
-for coin in coins:    
-    print("You entered " + str(coin) + name
-
-    switch(name)
-        switcher = {
-            1: coin.value = .25
-                print("quarters.")
-            2: coin.value = .10
-                print("dimes.")
-            3: coin.value = .05
-                print("nickels.")
-            4: coin.value = .01
-                print("pennies.")
-
-print("")
-print("Your total is " + str(Total) + " Dollars")
+# END
 
